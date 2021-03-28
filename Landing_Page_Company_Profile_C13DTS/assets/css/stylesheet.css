@@ -1,0 +1,137 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* CSS nav-header - START */
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url("../img/bg.png");
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper:hover {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(96, 27, 194, 0.1)), url("../img/bg.png");
+  background-image: -moz-linear-gradient(top, rgba(27, 24, 184, 0.1), rgba(96, 27, 194, 0.1)), url("../img/bg.png");
+  background-image: -o-linear-gradient(top, rgba(27, 24, 184, 0.1), rgba(96, 27, 194, 0.1)), url("../img/bg.png");
+  background-image: -ms-linear-gradient(top, rgba(27, 24, 184, 0.1), rgba(96, 27, 194, 0.1)), url("../img/bg.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(96, 27, 194, 0.1)), to(rgba(96, 27, 194, 0.1))), url("../img/bg.png");
+  background-image: -webkit-linear-gradient(top, rgba(27, 24, 184, 0.1), rgba(96, 27, 194, 0.1)), url("../img/bg.png");
+}
+
+.top-wrapper h1 {
+  font-weight: 500;
+}
+
+.top-wrapper p {
+  font-weight: 100;
+  margin-bottom: 3px;
+  padding-bottom: 20px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+  font-weight: 300;
+}
+
+.free {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 13px;  
+  opacity: 0.8;
+}
+
+.twitter,.facebook,.linkedin {
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 4px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 15px;
+}
+
+.nav-logo {
+  float: left;
+}
+
+.nav-menu {
+  float: right;
+}
+
+.nav-right a {
+  line-height: 65px;
+  padding: 0 20px;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.nav-right a:hover, .icon-search:hover {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: rgba(134, 14, 194, 0.3);
+}
+
+.menu-icon {
+  float: right;
+  font-size: 25px;
+  padding: 22px 0 22px 10px;
+  display: none;
+  transition: all 0.5s;
+}
+
+.icon-search {
+  font-size: 20px;
+  padding: 24px 0 24px 10px;
+  transition: all 0.5s;
+}
+
+/* CSS nav-header - END */
